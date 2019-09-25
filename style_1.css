@@ -1,0 +1,176 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+	
+.header{
+	background-color: #F8F8FF;
+	}
+
+.menu{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 800px){
+	.menu{
+		flex-flow: column;
+		align-items: center;
+	}
+}
+
+.navigate{
+
+	margin-left: 10%;
+}
+.call {
+	margin-right: 15%;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.btn_call{
+	color: #ff1a8c;
+	background: transparent;
+	border: 2px solid #ff1a8c;
+	height: 40px;
+	padding-left: 3%;
+	margin-left: 1em;
+}
+h1{
+	font-family: Georgia;
+	font-size: 2.6em;
+}
+p{
+	color: #a9b3bc;
+}
+.for_more{
+	color: white;
+	background: #ff3300;
+	border: 2px solid #ff3300;
+	height: 40px;
+}
+.navigate ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+.navigate a{
+	padding: 1em;
+	color: black;
+}
+	
+#info{
+	display: flex;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 800px){
+	#info{
+		flex-flow: column;
+		align-items: center;
+	}
+}
+#person{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 0% 0% 0% 15%;
+}
+.doing{
+	display: flex;
+	justify-content: center;
+}
+
+.content-1{
+	justify-content: center;
+	padding: 5% 10% 5% 10%; 
+}
+
+
+.icons{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+@media only screen and (max-width: 800px){
+	.icons{
+		flex-flow: column;
+	}
+}
+
+.ability{
+	flex-basis: 20%;
+}
+.order{
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px 40px 0px;
+}
+.content-2{
+	padding: 5% 15% 0% 15%; 
+	margin-bottom: 10%;
+}
+.projects{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+@media only screen and (max-width: 800px){
+	.projects{
+		flex-flow: column;
+	}
+}
+.port{
+	margin: 0% 2% 0% 2%;
+}
+.content-3{
+	background-color: #ff3300;
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	color: white;
+	padding: 3% 0% 0% 0%; 
+	height: 200px;
+}
+#price_text{
+	width: 50%;
+
+}
+.content-4{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin: 3% 0% 0% 0%;
+}
+@media only screen and (max-width: 800px){
+	.content-4{
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+#first ul{
+		list-style: none;
+}
+#third{
+	display: flex;
+	flex-flow: column nowrap;
+	
+}
+#wrap_img{
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 10% 0% 0% 0%;
+}
+.footer{
+	background-color: #374048;
+	color: white;
+	height: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2%;
+}
+
+
+
